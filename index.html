@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+	// BMI Problem
+		
+		var weight = prompt("What is your weight in pounds?");
+		parseFloat(weight);
+
+		var height = prompt("What is your height in inches?");
+		parseFloat(height);
+
+		var kilos = weight / 2.2;
+		var meters = height * 0.0254;
+		var BMI = kilos / (meters * meters);
+
+		alert("Your BMI is " +(BMI));
+	
+	// Temperature Problem
+		var Celsius = prompt("What is the temperature in Celsius?");
+		var Fahrenheit = Celsius * 9/5 +32;
+		alert("It is " + Fahrenheit + " degress Fahrenheit.");
+
+	// // 5 test scores problem
+		var score1 = prompt("What is your test score?");
+		var newScore1 = parseFloat(score1);
+		console.log(newScore1);
+
+		var score2 = prompt("What is your test score?");
+		var newScore2 = parseFloat(score2);
+
+		var score3 = prompt("What is your test score?");
+		var newScore3 = parseFloat(score3);
+
+		var score4 = prompt("What is your test score?");
+		var newScore4 = parseFloat(score4);
+
+		var score5 = prompt("What is your test score?");
+		var newScore5 = parseFloat(score5);
+
+		var average = (newScore1 + newScore2 + newScore3 + newScore4 + newScore5)/5;
+		console.log(average);
+
+		
+	</script>
+
+</body>
+</html>
